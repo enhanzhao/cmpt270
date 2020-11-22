@@ -1,0 +1,18 @@
+//Enhan Zhao enz889 11097118 cmpt 270
+
+Testing:
+
+The testing for all 3 classes are hard coded in the main function of each of the class file.
+Testing for Person, Ward and BasicDoctor class can be done by running the main function of each class.
+Testing for Ward class must be done while the Person class is present, since the Ward class has a Person array list.
+A test driver called Assignment2Tester.java is provided to run all 3 main functions.
+If errors were found, a print statement will show in which method are errors.
+
+Assignment status
+
+The 3 classes made for this assignment are currently working properly. All getter, setters, constructors, and methods are tested in
+the main method to make sure the classes work alone and with each other. That being said,
+a few minor adjustments can be made to make the code more efficient: the constructor for Ward can take an argument
+called numberofBeds that can be used to automatically create a Person list array in the object, instead of manually passing
+in an empty Person array list when creating the object.
+

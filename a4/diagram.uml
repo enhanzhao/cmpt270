@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="350.0" y="517.0">entities.Ward</node>
+    <node x="140.0" y="370.0">containers.PatientMapAccess</node>
+    <node x="3.5" y="370.0">entities.Person</node>
+    <node x="0.0" y="76.0">userInterfaces.AbstractDialogIO</node>
+    <node x="0.0" y="517.0">HospitalSystem</node>
+    <node x="178.0" y="76.0">userInterfaces.ConsoleIO</node>
+    <node x="346.0" y="152.0">entities.Surgeon</node>
+    <node x="0.0" y="446.0">entities.Patient</node>
+    <node x="415.0" y="299.0">commands.EmptyBeds</node>
+    <node x="279.0" y="299.0">commands.DropDoctor</node>
+    <node x="0.0" y="299.0">commands.NewDoctor</node>
+    <node x="343.0" y="370.0">containers.DoctorMapAccess</node>
+    <node x="332.0" y="0.0">entities.BasicDoctor</node>
+    <node x="197.00000000000003" y="223.0">commands.CommandStatus</node>
+    <node x="62.75" y="0.0">userInterfaces.InputOutputInterface</node>
+    <node x="28.0" y="152.0">userInterfaces.DialogIO</node>
+    <node x="189.0" y="517.0">containers.WardAccess</node>
+    <node x="129.00000000000003" y="299.0">commands.AssignDoctor</node>
+    <node x="349.5" y="76.0">entities.Doctor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="entities.Patient" target="entities.Person">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="userInterfaces.DialogIO" target="userInterfaces.AbstractDialogIO">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="commands.DropDoctor" target="commands.CommandStatus">
+      <point x="0.0" y="-13.0" />
+      <point x="337.0" y="279.0" />
+      <point x="282.625" y="279.0" />
+      <point x="17.125" y="13.0" />
+    </edge>
+    <edge source="commands.NewDoctor" target="commands.CommandStatus">
+      <point x="0.0" y="-13.0" />
+      <point x="54.5" y="269.0" />
+      <point x="214.12500000000003" y="269.0" />
+      <point x="-51.375" y="13.0" />
+    </edge>
+    <edge source="userInterfaces.ConsoleIO" target="userInterfaces.InputOutputInterface">
+      <point x="0.0" y="-13.0" />
+      <point x="232.5" y="51.0" />
+      <point x="202.25" y="51.0" />
+      <point x="46.5" y="13.0" />
+    </edge>
+    <edge source="userInterfaces.AbstractDialogIO" target="userInterfaces.InputOutputInterface">
+      <point x="0.0" y="-13.0" />
+      <point x="79.0" y="51.0" />
+      <point x="109.25" y="51.0" />
+      <point x="-46.5" y="13.0" />
+    </edge>
+    <edge source="entities.Doctor" target="entities.BasicDoctor">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="commands.EmptyBeds" target="commands.CommandStatus">
+      <point x="0.0" y="-13.0" />
+      <point x="469.5" y="269.0" />
+      <point x="316.875" y="269.0" />
+      <point x="51.375" y="13.0" />
+    </edge>
+    <edge source="commands.AssignDoctor" target="commands.CommandStatus">
+      <point x="0.0" y="-13.0" />
+      <point x="194.00000000000003" y="279.0" />
+      <point x="248.37500000000003" y="279.0" />
+      <point x="-17.125" y="13.0" />
+    </edge>
+    <edge source="entities.Surgeon" target="entities.Doctor">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="483.5" y="192.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

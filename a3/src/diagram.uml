@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="608.0">Ward</node>
+    <node x="201.6964285714285" y="223.0">Patient</node>
+    <node x="347.0" y="704.0">Doctor</node>
+    <node x="131.13802083333337" y="1047.0">HospitalSystem</node>
+    <node x="245.1964285714285" y="0.0">Person</node>
+    <node x="512.6964285714284" y="283.0">BasicDoctor</node>
+    <node x="538.3333333333333" y="1179.0">Surgeon</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Surgeon" target="Doctor">
+      <point x="-22.0" y="-50.5" />
+      <point x="604.3333333333333" y="1027.0" />
+      <point x="612.5" y="1027.0" />
+      <point x="117.99999999999994" y="98.5" />
+    </edge>
+    <edge source="Doctor" target="Patient">
+      <point x="-55.31250000000006" y="-98.5" />
+      <point x="439.18749999999994" y="538.0" />
+      <point x="378.37499999999994" y="538.0" />
+      <point x="31.178571428571445" y="122.5" />
+    </edge>
+    <edge source="HospitalSystem" target="Patient">
+      <point x="-39.33333333333343" y="-182.5" />
+      <point x="268.80468749999994" y="1017.0" />
+      <point x="314.5" y="1017.0" />
+      <point x="314.5" y="588.0" />
+      <point x="274.4464285714285" y="588.0" />
+      <point x="-72.75" y="122.5" />
+    </edge>
+    <edge source="Patient" target="Doctor">
+      <point x="93.53571428571428" y="122.5" />
+      <point x="440.7321428571428" y="508.0" />
+      <point x="549.8124999999999" y="508.0" />
+      <point x="55.31249999999994" y="-98.5" />
+    </edge>
+    <edge source="Surgeon" target="Patient">
+      <point x="22.0" y="-50.5" />
+      <point x="648.3333333333333" y="1027.0" />
+      <point x="662.8704117063492" y="1027.0" />
+      <point x="662.8704117063492" y="498.0" />
+      <point x="461.51785714285705" y="498.0" />
+      <point x="114.32142857142856" y="122.5" />
+    </edge>
+    <edge source="HospitalSystem" target="Doctor">
+      <point x="78.66666666666657" y="-182.5" />
+      <point x="386.80468749999994" y="1027.0" />
+      <point x="376.5" y="1027.0" />
+      <point x="-118.0" y="98.5" />
+    </edge>
+    <edge source="Doctor" target="BasicDoctor">
+      <point x="92.18749999999994" y="-98.5" />
+      <point x="586.6875" y="588.0" />
+      <point x="559.1964285714284" y="588.0" />
+      <point x="-46.5" y="62.5" />
+    </edge>
+    <edge source="HospitalSystem" target="Ward">
+      <point x="-78.6666666666668" y="-182.5" />
+      <point x="229.47135416666657" y="1027.0" />
+      <point x="253.33333333333331" y="1027.0" />
+      <point x="101.33333333333331" y="194.5" />
+    </edge>
+    <edge source="Patient" target="Person">
+      <point x="-72.75" y="-122.5" />
+      <point x="274.4464285714285" y="198.0" />
+      <point x="296.1964285714285" y="198.0" />
+      <point x="-51.0" y="86.5" />
+    </edge>
+    <edge source="Ward" target="Patient">
+      <point x="-101.33333333333331" y="-194.5" />
+      <point x="50.666666666666686" y="578.0" />
+      <point x="212.08928571428564" y="578.0" />
+      <point x="-135.10714285714286" y="122.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="531.0" y="899.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

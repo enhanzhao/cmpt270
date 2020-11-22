@@ -1,0 +1,12 @@
+//Enhan Zhao 11097118 enz889
+
+
+4.
+To run the system, the main function of the HospitalSystem class should be invoked.
+
+The default console input and output along with all the functionality of the Hospital System is working properly.
+The implementations of ConsoleIO and DialogIO also works as expected.
+
+
+
+

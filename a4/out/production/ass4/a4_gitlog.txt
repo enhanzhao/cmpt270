@@ -1,0 +1,62 @@
+//Enhan Zhao enz889 11097118
+
+commit e5b53a9fd501307f846a254ea0c1c4177ec1973d (HEAD -> master)
+Author: paul <enhanzhao@gmail.com>
+Date:   Sat Nov 2 20:40:39 2019 -0600
+
+    c10 completed adding internal documentations for q2
+
+commit 490f8ccbcfa135ff71f9fc4c088ce1fce744c2d4
+Author: paul <enhanzhao@gmail.com>
+Date:   Fri Nov 1 15:52:32 2019 -0600
+
+    c9 completed implementation of question 2 part a and b: added 4 classes in command, 3 classes in container
+
+commit eeb0d7ef16a909b671ad0ac041b62d31e0efa558
+Author: paul <enhanzhao@gmail.com>
+Date:   Fri Nov 1 11:59:25 2019 -0600
+
+    c8 implemented and tested Assign doctor in command package.
+
+commit 257a53877975b178c1864eca9d979ef63cde6e13
+Author: paul <enhanzhao@gmail.com>
+Date:   Fri Nov 1 11:24:46 2019 -0600
+
+    c7 implemented EmptyBeds in the commands package
+
+commit cb56ce884bda671d6a573ee5ec0dac96d1e87fe2
+Author: paul <enhanzhao@gmail.com>
+Date:   Thu Oct 31 18:45:57 2019 -0600
+
+    c6 implemented the WardAccess class, implemented getWard() in HospitalSystem so Hospital System uses WardAccess
+
+commit cf3274fd511e4279b499a6abba24e9d53b442960
+Author: paul <enhanzhao@gmail.com>
+Date:   Thu Oct 31 18:30:53 2019 -0600
+
+    c5 added getPatientMap() getDoctorMap() static method to PatientAccess, DoctorAccess. Implemented the 2 treemaps in Hospital System
+
+commit 4aabb72c484ba35f30951031ee051c7ae84195fa
+Author: paul <enhanzhao@gmail.com>
+Date:   Wed Oct 30 17:28:03 2019 -0600
+
+    c4. refractored HospitalSystemA4Q1.java and added demonstration logs
+
+commit 1d64c832b9982bf09d4c43fb094ce4f4ba6a31b7
+Author: paul <enhanzhao@gmail.com>
+Date:   Wed Oct 30 17:14:31 2019 -0600
+
+    c3. completed implementation of displayEmpty beds and releasePatient in Q1
+
+commit f8749e958ed470555776058d8164c96a4c705855
+Author: paul <enhanzhao@gmail.com>
+Date:   Wed Oct 30 16:24:23 2019 -0600
+
+    c2. added class DoctorMap Access and implemented attributes and methods
+
+commit c80e13bf1b11b025503d933701d93c1a2e3fab5c
+Author: paul <enhanzhao@gmail.com>
+Date:   Wed Oct 30 16:17:26 2019 -0600
+
+    c1. Initial commit, files added to folder.
+paul@daikon:~/IdeaProjects/ass4$

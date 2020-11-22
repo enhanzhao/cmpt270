@@ -1,0 +1,160 @@
+//Enhan Zhao enz889 11097118 cmpt270
+
+Initializing the system...
+Getting entities.Ward information...
+Enter the name of the entities.Ward: Sask
+Enter the integer label of the first bed: 10
+Enter the integer label of the last bed: 20
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection: 2
+Getting entities.Patient information...
+Enter the name of the patient: paul
+Enter the health number of the patient: 111
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection: 3
+Getting entities.Patient information...
+Enter the name of the doctor: lisa
+Is the doctor a surgeon? (yes or no)no
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection:
+4
+Assigning a new entities.Doctor-entities.Patient Association...
+Getting entities.Patient information...
+Enter the health number of the patient: 111
+Getting entities.Doctor information...
+Enter the name of the doctor: lisa
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection: 6
+Assigning a entities.Patient to a Bed...
+Getting entities.Patient information...
+Enter the health number of the patient: 111
+Enter the bed number for the patient: 15
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection: 5
+[10, 11, 12, 13, 14, 16, 17, 18, 19, 20]
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection: 7
+Enter the patient health card number:
+111
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection: 9
+
+The patients in the system are
+
+The doctors in the system are
+
+Name: lisa
+Patients:
+
+The ward is
+entities.Ward Sask with capacity 11 has the following patients:
+bed 10:
+bed 11:
+bed 12:
+bed 13:
+bed 14:
+bed 15:
+bed 16:
+bed 17:
+bed 18:
+bed 19:
+bed 20:
+
+Please select an operation to do
+1: quit
+2: add a new patient
+3: add a new doctor
+4: assign a doctor to a patient
+5: display the empty beds of the ward
+6: assign a patient a bed
+7: release a patient
+8: drop doctor-patient association
+9: display current system state
+Enter the number of your selection: 1
+
+The patients in the system are
+
+The doctors in the system are
+
+Name: lisa
+Patients:
+
+The ward is
+entities.Ward Sask with capacity 11 has the following patients:
+bed 10:
+bed 11:
+bed 12:
+bed 13:
+bed 14:
+bed 15:
+bed 16:
+bed 17:
+bed 18:
+bed 19:
+bed 20:
+
+
+Process finished with exit code 0
